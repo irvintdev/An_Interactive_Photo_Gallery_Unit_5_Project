@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin: 0 auto;
+}
+
