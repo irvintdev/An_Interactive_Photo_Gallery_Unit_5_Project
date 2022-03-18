@@ -6,6 +6,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 input {
     width: 90%;
     max-width: 500px;
@@ -23,10 +25,11 @@ input:focus{
 .gallery {
     display: grid;
     max-width: 860px;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-template-rows: 200px;
     gap: 20px;
     margin: auto;
-    align-items: left;
+    justify-content: left;
     margin-bottom: 50px;
     
 }
