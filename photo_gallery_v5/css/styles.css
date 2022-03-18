@@ -5,6 +5,7 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+
 input {
     width: 90%;
     max-width: 500px;
@@ -19,7 +20,7 @@ input:focus{
     outline: none;
 }
 
-.container {
+.gallery {
     display: grid;
     max-width: 860px;
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
